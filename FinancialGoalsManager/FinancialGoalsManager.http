@@ -1,0 +1,6 @@
+@FinancialGoalsManager_HostAddress = http://localhost:5252
+
+GET {{FinancialGoalsManager_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
