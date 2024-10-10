@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.csproj|solutionrelative:financialgoalsmanager\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\entities\\financialobjective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.csproj|solutionrelative:financialgoalsmanager\\entities\\financialobjective.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Entities\\Transaction.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager\\Entities\\Transaction.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Entities\\Transaction.cs",
+              "RelativeToolTip": "FinancialGoalsManager\\Entities\\Transaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T02:04:34.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FinancialObjective.cs",
               "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Entities\\FinancialObjective.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager\\Entities\\FinancialObjective.cs",
