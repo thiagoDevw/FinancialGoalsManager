@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.csproj|solutionrelative:financialgoalsmanager\\financialgoalsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.csproj|solutionrelative:financialgoalsmanager\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "FinancialGoalsDbContext.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsDbContext.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsDbContext.cs",
+              "RelativeToolTip": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:40:33.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FinancialObjective.cs",
               "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Entities\\FinancialObjective.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager\\Entities\\FinancialObjective.cs",
@@ -38,12 +55,11 @@
               "RelativeToolTip": "FinancialGoalsManager\\Entities\\FinancialObjective.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAA5wBAAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T01:23:46.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T01:23:46.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Entities\\Transaction.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager\\Entities\\Transaction.cs",
@@ -56,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FinancialDbContext.cs",
               "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Persistence\\FinancialDbContext.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager\\Persistence\\FinancialDbContext.cs",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Boxes.cs",
               "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\Boxes.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager\\Controllers\\Boxes.cs",
