@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
               "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsDbContext.cs",
               "RelativeToolTip": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T02:40:33.887Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "FinancialGoalsManager\\Entities\\Transaction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T02:04:34.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T02:04:34.573Z"
             },
             {
               "$type": "Document",
