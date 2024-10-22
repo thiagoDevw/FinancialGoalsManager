@@ -1,10 +1,16 @@
 ﻿using FinancialGoalsManager.Entities;
-using FinancialGoalsManager.Repositories;
 
-namespace FinancialGoalsManager.Persistence
+namespace FinancialGoalsManager.Repositories
 {
     public class FinancialObjectiveRepository : IRepository<FinancialObjective>
     {
+        private readonly FinancialGoalsDbContext _context;
+
+        public FinancialObjectiveRepository(FinancialGoalsDbContext context)
+        {
+            _context = context;
+        }
+
         public Task<FinancialObjective> Create(FinancialObjective entity)
         {
             throw new NotImplementedException();
