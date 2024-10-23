@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
               "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsDbContext.cs",
               "RelativeToolTip": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T02:40:33.887Z",
               "EditorCaption": ""
@@ -61,7 +61,7 @@
               "RelativeDocumentMoniker": "FinancialGoalsManager\\Repositories\\FinancialObjectiveRepository.cs",
               "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Repositories\\FinancialObjectiveRepository.cs",
               "RelativeToolTip": "FinancialGoalsManager\\Repositories\\FinancialObjectiveRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T02:52:50.536Z",
               "EditorCaption": ""
@@ -76,8 +76,7 @@
               "RelativeToolTip": "FinancialGoalsManager\\Persistence\\FinancialDbContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T02:02:44.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T02:02:44.372Z"
             },
             {
               "$type": "Document",

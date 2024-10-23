@@ -8,7 +8,7 @@ namespace FinancialGoalsManager
         public FinancialGoalsDbContext(DbContextOptions<FinancialGoalsDbContext> options)
             : base(options) { }
 
-        public DbSet<FinancialObjective> Objectives { get; set; }
+        public DbSet<FinancialObjective> FinancialObjectives { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
     }
 }

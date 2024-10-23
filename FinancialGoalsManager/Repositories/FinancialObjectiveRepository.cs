@@ -1,4 +1,5 @@
 ﻿using FinancialGoalsManager.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinancialGoalsManager.Repositories
 {
@@ -21,9 +22,9 @@ namespace FinancialGoalsManager.Repositories
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<FinancialObjective>> GetAllAsync()
+        public async Task<IEnumerable<FinancialObjective>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await _context.FinancialObjectives.ToListAsync();
         }
 
         public Task<FinancialObjective> GetById(int id)
