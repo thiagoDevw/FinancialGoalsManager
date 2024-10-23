@@ -17,9 +17,14 @@ namespace FinancialGoalsManager.Repositories
             throw new NotImplementedException();
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            var entity = await _context.FinancialObjectives.FindAsync(id);
+            if (entity != null)
+            {
+                _context.FinancialObjectives.Remove(entity);
+                await _context.SaveChangesAsync();
+            }
         }
 
         public async Task<IEnumerable<FinancialObjective>> GetAllAsync()
