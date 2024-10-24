@@ -12,9 +12,11 @@ namespace FinancialGoalsManager.Repositories
             _context = context;
         }
 
-        public Task<FinancialObjective> Create(FinancialObjective entity)
+        public async Task<FinancialObjective> Create(FinancialObjective entity)
         {
-            throw new NotImplementedException();
+            _context.FinancialObjectives.Add(entity);
+            await _context.SaveChangesAsync();
+            return entity;
         }
 
         public async Task Delete(int id)
