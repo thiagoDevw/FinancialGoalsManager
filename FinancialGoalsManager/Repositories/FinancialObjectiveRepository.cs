@@ -34,9 +34,9 @@ namespace FinancialGoalsManager.Repositories
             return await _context.FinancialObjectives.ToListAsync();
         }
 
-        public Task<FinancialObjective> GetById(int id)
+        public async Task<FinancialObjective> GetById(int id)
         {
-            throw new NotImplementedException();
+            return await _context.FinancialObjectives.FindAsync(id);
         }
 
         public async Task Update(FinancialObjective entity)
