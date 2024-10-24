@@ -39,9 +39,10 @@ namespace FinancialGoalsManager.Repositories
             throw new NotImplementedException();
         }
 
-        public Task Update(FinancialObjective entity)
+        public async Task Update(FinancialObjective entity)
         {
-            throw new NotImplementedException();
+            _context.FinancialObjectives.Update(entity);
+            await _context.SaveChangesAsync();
         }
     }
 }
