@@ -11,5 +11,10 @@ namespace FinancialGoalsManager.Service
         {
             _repository = repository;
         }
+
+        public async Task<IEnumerable<FinancialObjective>> GetAllFinancialObjectives()
+        {
+            return await _repository.GetAllAsync();
+        }
     }
 }
