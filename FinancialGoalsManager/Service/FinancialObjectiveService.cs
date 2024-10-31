@@ -26,5 +26,10 @@ namespace FinancialGoalsManager.Service
         {
             return await _repository.Create(obj);
         }
+
+        public async Task UpdateFinancialObjective(FinancialObjective obj)
+        {
+            await _repository.Update(obj);
+        }
     }
 }
