@@ -6,7 +6,7 @@ namespace FinancialGoalsManager.Persistence
 {
     public class FinancialDbContext : DbContext
     {
-        public DbSet<Boxes> Boxes { get; set; }
+        public DbSet<FinancialObjectiveController> Boxes { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
 
         public FinancialDbContext(DbContextOptions<FinancialDbContext> options)
