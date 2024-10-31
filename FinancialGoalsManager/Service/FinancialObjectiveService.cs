@@ -31,5 +31,10 @@ namespace FinancialGoalsManager.Service
         {
             await _repository.Update(obj);
         }
+
+        public async Task DeleteFinancialObjective(int id)
+        {
+            await _repository.Delete(id);
+        }
     }
 }

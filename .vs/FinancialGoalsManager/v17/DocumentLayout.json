@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "FinancialGoalsManager\\Service\\FinancialObjectiveService.cs",
               "ToolTip": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Service\\FinancialObjectiveService.cs",
               "RelativeToolTip": "FinancialGoalsManager\\Service\\FinancialObjectiveService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T22:31:11.682Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "FinancialGoalsManager\\Repositories\\FinancialObjectiveRepository.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAgwCIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T02:52:50.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T02:52:50.536Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "FinancialGoalsManager\\Repositories\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T02:49:10.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T02:49:10.532Z"
             },
             {
               "$type": "Document",
