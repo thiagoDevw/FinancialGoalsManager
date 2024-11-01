@@ -22,7 +22,7 @@ namespace FinancialGoalsManager.Service
             return await _repository.GetById(id);
         }
 
-        public async Task<FinancialObjective> GetFinancialObjective(FinancialObjective obj)
+        public async Task<FinancialObjective> CreateFinancialObjective(FinancialObjective obj)
         {
             return await _repository.Create(obj);
         }

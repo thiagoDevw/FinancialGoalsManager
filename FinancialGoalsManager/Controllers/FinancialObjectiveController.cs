@@ -1,4 +1,5 @@
-﻿using FinancialGoalsManager.Service;
+﻿using FinancialGoalsManager.Entities;
+using FinancialGoalsManager.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinancialGoalsManager.Controllers
@@ -25,7 +26,18 @@ namespace FinancialGoalsManager.Controllers
         public async Task<IActionResult> GetById(int id)
         {
             var objective = await _service.GetFinancialObjectiveById(id);
+            if (objective == null)
+            {
+                return NotFound();
+            }
             return Ok(objective);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(FinancialObjective objective)
+        {
+            var createObjective = await _service.CreateFinancialObjective(objective);
+            return CreatedAtAction(nameof(GetById), new { id = createObjective.Id }, createObjective);
         }
     }
 }
