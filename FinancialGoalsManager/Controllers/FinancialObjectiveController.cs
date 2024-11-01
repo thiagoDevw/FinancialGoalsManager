@@ -20,5 +20,12 @@ namespace FinancialGoalsManager.Controllers
             var objectives = await _service.GetAllFinancialObjectives();
             return Ok(objectives);
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var objective = await _service.GetFinancialObjectiveById(id);
+            return Ok(objective);
+        }
     }
 }
