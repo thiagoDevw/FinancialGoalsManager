@@ -13,5 +13,12 @@ namespace FinancialGoalsManager.Controllers
         {
             _service = service;
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAll()
+        {
+            var objectives = await _service.GetAllFinancialObjectives();
+            return Ok(objectives);
+        }
     }
 }
