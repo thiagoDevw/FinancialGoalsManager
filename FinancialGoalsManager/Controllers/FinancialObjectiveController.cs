@@ -39,5 +39,11 @@ namespace FinancialGoalsManager.Controllers
             var createObjective = await _service.CreateFinancialObjective(objective);
             return CreatedAtAction(nameof(GetById), new { id = createObjective.Id }, createObjective);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, FinancialObjective objective)
+        {
+
+        }
     }
 }
