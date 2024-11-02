@@ -43,7 +43,9 @@ namespace FinancialGoalsManager.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, FinancialObjective objective)
         {
-
+            if (id != objective.Id) return BadRequest();
+            await _service.UpdateFinancialObjective(objective);
+            return NoContent();
         }
     }
 }
