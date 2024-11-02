@@ -47,5 +47,12 @@ namespace FinancialGoalsManager.Controllers
             await _service.UpdateFinancialObjective(objective);
             return NoContent();
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.DeleteFinancialObjective(id);
+            return NoContent();
+        }
     }
 }
