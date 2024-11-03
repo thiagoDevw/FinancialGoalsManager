@@ -15,6 +15,7 @@ namespace FinancialGoalsManager.Controllers
             _service = service;
         }
 
+        // GET: api/FinancialObjective
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -22,6 +23,7 @@ namespace FinancialGoalsManager.Controllers
             return Ok(objectives);
         }
 
+        // GET: api/FinancialObjective/{id}
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -33,6 +35,7 @@ namespace FinancialGoalsManager.Controllers
             return Ok(objective);
         }
 
+        // POST: api/FinancialObjective
         [HttpPost]
         public async Task<IActionResult> Create(FinancialObjective objective)
         {
@@ -40,6 +43,7 @@ namespace FinancialGoalsManager.Controllers
             return CreatedAtAction(nameof(GetById), new { id = createObjective.Id }, createObjective);
         }
 
+        // PUT: api/FinancialObjective/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, FinancialObjective objective)
         {
@@ -48,6 +52,7 @@ namespace FinancialGoalsManager.Controllers
             return NoContent();
         }
 
+        // DELETE: api/FinancialObjective/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
