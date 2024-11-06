@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oUQZdl1UXwCB9Vt0kU+FFy1487LujlUzJq12kd0GGisLmbxNHEb93Zu1a9TTqg/WplwHqk1gIQcaNfpynsHf/A==",
+  "dgSpecHash": "wmyiC30aPxreDBwMoaLNDGo11jSbhSnDcQCrt+8b3hnY7BsL0J39BwHeZt1Kd2FORheqYkc055dDCzHo2Kyk2Q==",
   "success": true,
-  "projectFilePath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.csproj",
+  "projectFilePath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ta741\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ta741\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

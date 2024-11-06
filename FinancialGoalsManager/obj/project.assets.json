@@ -2491,9 +2491,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.csproj",
-      "projectName": "FinancialGoalsManager",
-      "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.csproj",
+      "projectUniqueName": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj",
+      "projectName": "FinancialGoalsManager.Api",
+      "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj",
       "packagesPath": "C:\\Users\\ta741\\.nuget\\packages\\",
       "outputPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\obj\\",
       "projectStyle": "PackageReference",
