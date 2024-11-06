@@ -886,6 +886,43 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "FinancialGoalsManager.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FinancialGoalsManager.Core": "1.0.0",
+          "FinancialGoalsManager.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinancialGoalsManager.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancialGoalsManager.Application.dll": {}
+        }
+      },
+      "FinancialGoalsManager.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/FinancialGoalsManager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancialGoalsManager.Core.dll": {}
+        }
+      },
+      "FinancialGoalsManager.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FinancialGoalsManager.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FinancialGoalsManager.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FinancialGoalsManager.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -2474,10 +2511,28 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "FinancialGoalsManager.Application/1.0.0": {
+      "type": "project",
+      "path": "../FinancialGoalsManager.Application/FinancialGoalsManager.Application.csproj",
+      "msbuildProject": "../FinancialGoalsManager.Application/FinancialGoalsManager.Application.csproj"
+    },
+    "FinancialGoalsManager.Core/1.0.0": {
+      "type": "project",
+      "path": "../FinancialGoalsManager.Core/FinancialGoalsManager.Core.csproj",
+      "msbuildProject": "../FinancialGoalsManager.Core/FinancialGoalsManager.Core.csproj"
+    },
+    "FinancialGoalsManager.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../FinancialGoalsManager.Infrastructure/FinancialGoalsManager.Infrastructure.csproj",
+      "msbuildProject": "../FinancialGoalsManager.Infrastructure/FinancialGoalsManager.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "FinancialGoalsManager.Application >= 1.0.0",
+      "FinancialGoalsManager.Core >= 1.0.0",
+      "FinancialGoalsManager.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.InMemory >= 8.0.10",
@@ -2516,7 +2571,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {
+              "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj"
+            },
+            "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
+              "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj"
+            },
+            "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
+              "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinancialGoalsManager.Core\FinancialGoalsManager.Core.csproj" />
+  </ItemGroup>
+
 </Project>

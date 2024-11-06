@@ -16,4 +16,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FinancialGoalsManager.Application\FinancialGoalsManager.Application.csproj" />
+    <ProjectReference Include="..\FinancialGoalsManager.Core\FinancialGoalsManager.Core.csproj" />
+    <ProjectReference Include="..\FinancialGoalsManager.Infrastructure\FinancialGoalsManager.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

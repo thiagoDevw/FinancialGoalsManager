@@ -1,0 +1,16 @@
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\bin\Debug\net8.0\FinancialGoalsManager.Infrastructure.deps.json
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\bin\Debug\net8.0\FinancialGoalsManager.Infrastructure.dll
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\bin\Debug\net8.0\FinancialGoalsManager.Infrastructure.pdb
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\bin\Debug\net8.0\FinancialGoalsManager.Core.dll
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\bin\Debug\net8.0\FinancialGoalsManager.Core.pdb
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\FinancialGoalsManager.Infrastructure.csproj.AssemblyReference.cache
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\FinancialGoalsManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\FinancialGoalsManager.Infrastructure.AssemblyInfoInputs.cache
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\FinancialGoalsManager.Infrastructure.AssemblyInfo.cs
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\FinancialGoalsManager.Infrastructure.csproj.CoreCompileInputs.cache
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\FinancialGoalsManager.Infrastructure.sourcelink.json
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\Financia.92684C54.Up2Date
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\FinancialGoalsManager.Infrastructure.dll
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\refint\FinancialGoalsManager.Infrastructure.dll
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\FinancialGoalsManager.Infrastructure.pdb
+S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Infrastructure\obj\Debug\net8.0\ref\FinancialGoalsManager.Infrastructure.dll
