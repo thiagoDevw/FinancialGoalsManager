@@ -16,7 +16,10 @@
       },
       "FinancialGoalsManager.Core/1.0.0": {
         "runtime": {
-          "FinancialGoalsManager.Core.dll": {}
+          "FinancialGoalsManager.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
