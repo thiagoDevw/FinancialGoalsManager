@@ -23,7 +23,7 @@ namespace FinancialGoalsManager.Api.Controllers
         }
 
         // GET api/transaction
-        {
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById()
         {
@@ -33,10 +33,19 @@ namespace FinancialGoalsManager.Api.Controllers
         [HttpPost("{id}")]
         public async Task<IActionResult> Post(CreateTransactionInputModel model)
         {
-
+            return Ok();
         }
-        {
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(UpdateTransactionInputModel model)
+        {
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            return Ok();
         }
     }
 }
