@@ -1,4 +1,5 @@
-﻿using FinancialGoalsManager.Service;
+﻿using FinancialGoalsManager.Application.Models.Transaction;
+using FinancialGoalsManager.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FinancialGoalsManager.Api.Controllers
@@ -14,11 +15,28 @@ namespace FinancialGoalsManager.Api.Controllers
             _service = service;
         }
 
-        // GET: api/transaction
+        // GET: api/transactions
         [HttpGet]
         public async Task<IActionResult> GetAllTransactions()
         {
             return Ok();
+        }
+
+        // GET api/transaction
+        {
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById()
+        {
+            return Ok();
+        }
+
+        [HttpPost("{id}")]
+        public async Task<IActionResult> Post(CreateTransactionInputModel model)
+        {
+
+        }
+        {
+
         }
     }
 }

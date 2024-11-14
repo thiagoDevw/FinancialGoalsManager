@@ -1,4 +1,5 @@
 ﻿
+using FinancialGoalsManager.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Transactions;
 
@@ -6,7 +7,7 @@ namespace FinancialGoalsManager.Persistence
 {
     public class FinancialDbContext : DbContext
     {
-        public DbSet<FinancialObjectiveController> Boxes { get; set; }
+        public DbSet<FinancialObjective> Boxes { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
 
         public FinancialDbContext(DbContextOptions<FinancialDbContext> options)

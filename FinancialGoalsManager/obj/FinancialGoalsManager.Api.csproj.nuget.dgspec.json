@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj": {}
+    "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj": {}
   },
   "projects": {
-    "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {
+    "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj",
+        "projectUniqueName": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj",
         "projectName": "FinancialGoalsManager.Application",
-        "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj",
-        "packagesPath": "C:\\Users\\ta741\\.nuget\\packages\\",
-        "outputPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\obj\\",
+        "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ta741\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
-                "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj"
+              "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
+                "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj"
               },
-              "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
-                "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj"
+              "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
+                "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj"
               }
             }
           }
@@ -72,24 +72,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
+    "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj",
+        "projectUniqueName": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj",
         "projectName": "FinancialGoalsManager.Core",
-        "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj",
-        "packagesPath": "C:\\Users\\ta741\\.nuget\\packages\\",
-        "outputPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\obj\\",
+        "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ta741\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -137,24 +137,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
+    "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj",
+        "projectUniqueName": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj",
         "projectName": "FinancialGoalsManager.Infrastructure",
-        "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ta741\\.nuget\\packages\\",
-        "outputPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\obj\\",
+        "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ta741\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -170,8 +170,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
-                "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj"
+              "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
+                "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj"
               }
             }
           }
@@ -228,24 +228,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj": {
+    "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj",
+        "projectUniqueName": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj",
         "projectName": "FinancialGoalsManager.Api",
-        "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj",
-        "packagesPath": "C:\\Users\\ta741\\.nuget\\packages\\",
-        "outputPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\obj\\",
+        "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Api.csproj",
+        "packagesPath": "C:\\Users\\SAMSUNG\\.nuget\\packages\\",
+        "outputPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ta741\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SAMSUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -261,14 +261,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {
-                "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj"
+              "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj": {
+                "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj"
               },
-              "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
-                "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj"
+              "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj": {
+                "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj"
               },
-              "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
-                "projectPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj"
+              "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj": {
+                "projectPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj"
               }
             }
           }
@@ -326,7 +326,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

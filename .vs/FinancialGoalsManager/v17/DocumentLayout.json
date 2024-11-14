@@ -1,30 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\",
+  "WorkspaceRootPath": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63DE516F-19FB-417B-AA30-67DFC1699B7D}|FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj|s:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager.core\\repositories\\financialobjectiverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63DE516F-19FB-417B-AA30-67DFC1699B7D}|FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj|solutionrelative:financialgoalsmanager.core\\repositories\\financialobjectiverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{167DD327-8F16-414B-ADBF-DAB425FB1DA7}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager.application\\models\\transaction\\transactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{167DD327-8F16-414B-ADBF-DAB425FB1DA7}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\models\\transaction\\transactionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2305E6F5-4AF6-4C9E-B89A-25750E9371FA}|FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj|s:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager.infrastructure\\persistence\\financialdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2305E6F5-4AF6-4C9E-B89A-25750E9371FA}|FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj|solutionrelative:financialgoalsmanager.infrastructure\\persistence\\financialdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|s:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|solutionrelative:financialgoalsmanager\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{167DD327-8F16-414B-ADBF-DAB425FB1DA7}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|s:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager.application\\service\\financialobjectiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{167DD327-8F16-414B-ADBF-DAB425FB1DA7}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager.application\\models\\transaction\\createtransactioninputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{167DD327-8F16-414B-ADBF-DAB425FB1DA7}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\models\\transaction\\createtransactioninputmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\controllers\\financialobjectivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|solutionrelative:financialgoalsmanager\\controllers\\financialobjectivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2305E6F5-4AF6-4C9E-B89A-25750E9371FA}|FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager.infrastructure\\persistence\\financialdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2305E6F5-4AF6-4C9E-B89A-25750E9371FA}|FinancialGoalsManager.Infrastructure\\FinancialGoalsManager.Infrastructure.csproj|solutionrelative:financialgoalsmanager.infrastructure\\persistence\\financialdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63DE516F-19FB-417B-AA30-67DFC1699B7D}|FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager.core\\repositories\\financialobjectiverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63DE516F-19FB-417B-AA30-67DFC1699B7D}|FinancialGoalsManager.Core\\FinancialGoalsManager.Core.csproj|solutionrelative:financialgoalsmanager.core\\repositories\\financialobjectiverepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{167DD327-8F16-414B-ADBF-DAB425FB1DA7}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager.application\\service\\financialobjectiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{167DD327-8F16-414B-ADBF-DAB425FB1DA7}|FinancialGoalsManager.Application\\FinancialGoalsManager.Application.csproj|solutionrelative:financialgoalsmanager.application\\service\\financialobjectiveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|s:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|c:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|solutionrelative:financialgoalsmanager\\financialgoalsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|s:\\financialgoalsmanager\\financialgoalsmanager\\financialgoalsmanager\\controllers\\financialobjectivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9367F669-516D-4FBD-ACEF-0E4A7B0AE496}|FinancialGoalsManager\\FinancialGoalsManager.Api.csproj|solutionrelative:financialgoalsmanager\\controllers\\financialobjectivecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,80 +47,104 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FinancialObjectiveRepository.cs",
-              "DocumentMoniker": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\Repositories\\FinancialObjectiveRepository.cs",
-              "RelativeDocumentMoniker": "FinancialGoalsManager.Core\\Repositories\\FinancialObjectiveRepository.cs",
-              "ToolTip": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\Repositories\\FinancialObjectiveRepository.cs",
-              "RelativeToolTip": "FinancialGoalsManager.Core\\Repositories\\FinancialObjectiveRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "TransactionViewModel.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Models\\Transaction\\TransactionViewModel.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Models\\Transaction\\TransactionViewModel.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Models\\Transaction\\TransactionViewModel.cs",
+              "RelativeToolTip": "FinancialGoalsManager.Application\\Models\\Transaction\\TransactionViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T22:01:56.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FinancialObjectiveService.cs",
-              "DocumentMoniker": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Service\\FinancialObjectiveService.cs",
-              "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Service\\FinancialObjectiveService.cs",
-              "ToolTip": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Service\\FinancialObjectiveService.cs",
-              "RelativeToolTip": "FinancialGoalsManager.Application\\Service\\FinancialObjectiveService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T21:51:42.413Z",
+              "WhenOpened": "2024-11-14T20:32:27.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FinancialDbContext.cs",
-              "DocumentMoniker": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Persistence\\FinancialDbContext.cs",
-              "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Persistence\\FinancialDbContext.cs",
-              "ToolTip": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Persistence\\FinancialDbContext.cs",
-              "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\Persistence\\FinancialDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T21:48:00.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "TransactionController.cs",
-              "DocumentMoniker": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\TransactionController.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\TransactionController.cs",
               "RelativeDocumentMoniker": "FinancialGoalsManager\\Controllers\\TransactionController.cs",
-              "ToolTip": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\TransactionController.cs",
               "RelativeToolTip": "FinancialGoalsManager\\Controllers\\TransactionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T21:38:54.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FinancialGoalsDbContext.cs",
-              "DocumentMoniker": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsDbContext.cs",
-              "RelativeDocumentMoniker": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
-              "ToolTip": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsDbContext.cs",
-              "RelativeToolTip": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CreateTransactionInputModel.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Models\\Transaction\\CreateTransactionInputModel.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Models\\Transaction\\CreateTransactionInputModel.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Models\\Transaction\\CreateTransactionInputModel.cs",
+              "RelativeToolTip": "FinancialGoalsManager.Application\\Models\\Transaction\\CreateTransactionInputModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T02:40:33.887Z",
+              "WhenOpened": "2024-11-14T20:07:35.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FinancialObjectiveController.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\FinancialObjectiveController.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager\\Controllers\\FinancialObjectiveController.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\FinancialObjectiveController.cs",
+              "RelativeToolTip": "FinancialGoalsManager\\Controllers\\FinancialObjectiveController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T01:51:51.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FinancialDbContext.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Persistence\\FinancialDbContext.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager.Infrastructure\\Persistence\\FinancialDbContext.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Infrastructure\\Persistence\\FinancialDbContext.cs",
+              "RelativeToolTip": "FinancialGoalsManager.Infrastructure\\Persistence\\FinancialDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:48:00.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FinancialObjectiveController.cs",
-              "DocumentMoniker": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\FinancialObjectiveController.cs",
-              "RelativeDocumentMoniker": "FinancialGoalsManager\\Controllers\\FinancialObjectiveController.cs",
-              "ToolTip": "S:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\Controllers\\FinancialObjectiveController.cs",
-              "RelativeToolTip": "FinancialGoalsManager\\Controllers\\FinancialObjectiveController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Title": "FinancialObjectiveRepository.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\Repositories\\FinancialObjectiveRepository.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager.Core\\Repositories\\FinancialObjectiveRepository.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Core\\Repositories\\FinancialObjectiveRepository.cs",
+              "RelativeToolTip": "FinancialGoalsManager.Core\\Repositories\\FinancialObjectiveRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T01:51:51.67Z",
+              "WhenOpened": "2024-11-13T22:01:56.615Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FinancialObjectiveService.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Service\\FinancialObjectiveService.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager.Application\\Service\\FinancialObjectiveService.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager.Application\\Service\\FinancialObjectiveService.cs",
+              "RelativeToolTip": "FinancialGoalsManager.Application\\Service\\FinancialObjectiveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T21:51:42.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FinancialGoalsDbContext.cs",
+              "DocumentMoniker": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsDbContext.cs",
+              "RelativeDocumentMoniker": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
+              "ToolTip": "C:\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsManager\\FinancialGoalsDbContext.cs",
+              "RelativeToolTip": "FinancialGoalsManager\\FinancialGoalsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T02:40:33.887Z"
             }
           ]
         }

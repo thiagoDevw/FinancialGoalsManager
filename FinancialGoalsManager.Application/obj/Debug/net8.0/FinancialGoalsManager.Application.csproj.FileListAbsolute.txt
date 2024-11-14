@@ -16,3 +16,12 @@ S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application
 S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\refint\FinancialGoalsManager.Application.dll
 S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.pdb
 S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\ref\FinancialGoalsManager.Application.dll
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.csproj.AssemblyReference.cache
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.AssemblyInfoInputs.cache
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.AssemblyInfo.cs
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.csproj.CoreCompileInputs.cache
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.sourcelink.json
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.dll
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\refint\FinancialGoalsManager.Application.dll
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager.Application\obj\Debug\net8.0\FinancialGoalsManager.Application.pdb

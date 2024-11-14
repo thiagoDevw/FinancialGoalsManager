@@ -114,3 +114,6 @@ S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager\obj\Debug\n
 S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager\obj\Debug\net8.0\FinancialGoalsManager.Api.pdb
 S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager\obj\Debug\net8.0\FinancialGoalsManager.Api.genruntimeconfig.cache
 S:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager\obj\Debug\net8.0\ref\FinancialGoalsManager.Api.dll
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager\obj\Debug\net8.0\FinancialGoalsManager.Api.dll
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager\obj\Debug\net8.0\refint\FinancialGoalsManager.Api.dll
+C:\FinancialGoalsManager\FinancialGoalsManager\FinancialGoalsManager\obj\Debug\net8.0\FinancialGoalsManager.Api.pdb
