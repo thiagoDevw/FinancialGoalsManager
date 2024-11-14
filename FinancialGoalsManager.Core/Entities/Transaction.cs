@@ -15,11 +15,11 @@ namespace FinancialGoalsManager.Entities
 
         [DataType(DataType.Date, ErrorMessage = "A data da transação deve ser válida.")]
         [Required(ErrorMessage = "A data da transação é obrigatória.")]
-        public DateTime DataTransaçao { get; set; }
-        public DateTime DataCriaçao { get; set; }
+        public DateTime DataTransacao { get; set; }
+        public DateTime DataCriaçao { get; set; } = DateTime.Now;
         public bool Deletado { get; set; }
 
-        public int FinancialObjectiveIde {  get; set; }
+        public int FinancialObjectiveId {  get; set; }
         public FinancialObjective FinancialObjective { get; set; }
 
     }
