@@ -23,7 +23,7 @@ namespace FinancialGoalsManager.Entities
         public bool Deletado { get; set; }
 
         // Valor total acumulado em transações
-        public decimal ValorTotal { get; set; }
+        public decimal ValorTotal => Transacoes?.Where(t => !t.Deletado).Sum(t => t.Tipo == TransactionType.Deposito ? t.Quantidade : -t.Quantidade) ?? 0;
 
         // Coleção de transações
         public ICollection<Transaction> Transacoes { get; set; }
