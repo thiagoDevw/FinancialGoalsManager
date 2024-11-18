@@ -4,6 +4,11 @@ namespace FinancialGoalsManager.Entities
 {
     public class FinancialObjective
     {
+        public FinancialObjective(ICollection<Transaction> transacoes)
+        {
+            Transacoes = transacoes ?? new List<Transaction>();
+        }
+
         public int Id { get; set; }
 
         [Required(ErrorMessage= "O título é obrigatório.")]
@@ -12,10 +17,11 @@ namespace FinancialGoalsManager.Entities
 
         [Range(0, double.MaxValue, ErrorMessage = "A quantidade alvo deve ser positiva.")]
         public decimal QuantidadeAlvo { get; set; }
+
         public DateTime? Prazo { get; set; } // Opcional
 
         [Range(0, double.MaxValue, ErrorMessage = "A quantidade ideal de aporte deve ser positiva.")]
-        public decimal? QuantIdealAporte { get; set; } // Opcional
+        public decimal? QuantidadeIdealAporteMensal { get; set; } // Opcional
 
         [Required]
         public ObjectiveStatus Status { get; set; } 

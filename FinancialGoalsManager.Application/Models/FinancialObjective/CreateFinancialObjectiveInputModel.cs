@@ -13,7 +13,7 @@ namespace FinancialGoalsManager.Application.Models.FinancialObjective
         public decimal QuantidadeAlvo {  get; set; }
 
         [Range(0.01, double.MaxValue, ErrorMessage = "A quantidade ideal de aporte deve ser positiva.")]
-        public decimal? QuantIdealAporte { get; set; }
+        public decimal? QuantidadeIdealAporteMensal { get; set; }
 
         [DataType(DataType.Date, ErrorMessage = "A data deve ser uma data válida.")]
         public DateTime? Prazo { get; set; }
