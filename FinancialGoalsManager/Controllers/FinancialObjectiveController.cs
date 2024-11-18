@@ -94,15 +94,26 @@ namespace FinancialGoalsManager.Controllers
 
         // PUT: api/FinancialObjective/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, FinancialObjective objective)
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateFinancialObjectiveInputModel inputModel)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != objective.Id) return BadRequest();
-            await _service.UpdateFinancialObjective(objective);
+            var objectiveToUpdate = await _service.GetFinancialObjectiveById(id);
+            if (objectiveToUpdate == null)
+            {
+                return NotFound();
+            }
+
+            objectiveToUpdate.Titulo = inputModel.Titulo;
+            objectiveToUpdate.QuantidadeAlvo = inputModel.QuantidadeAlvo;
+            objectiveToUpdate.Prazo = inputModel.Prazo;
+            objectiveToUpdate.Status = (ObjectiveStatus)Enum.Parse(typeof(ObjectiveStatus), inputModel.Status.ToString());
+            objectiveToUpdate.QuantidadeIdealAporteMensal = inputModel.QuantidadeIdealAporteMensal;
+
+            await _service.UpdateFinancialObjective(objectiveToUpdate);
             return NoContent();
         }
 
@@ -110,6 +121,12 @@ namespace FinancialGoalsManager.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
+            var objective = await _service.GetFinancialObjectiveById(id);
+            if (objective == null)
+            {
+                return NoContent();
+            }
+
             await _service.DeleteFinancialObjective(id);
             return NoContent();
         }
