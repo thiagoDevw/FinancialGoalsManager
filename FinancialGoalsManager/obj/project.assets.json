@@ -1618,6 +1618,10 @@
       "FinancialGoalsManager.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.InMemory": "9.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.0"
+        },
         "compile": {
           "bin/placeholder/FinancialGoalsManager.Core.dll": {}
         },
@@ -4638,8 +4642,26 @@
     {
       "code": "NU1605",
       "level": "Error",
+      "message": "Aviso como Erro: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore.InMemory de 9.0.0 para 8.0.10. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n FinancialGoalsManager.Api -> FinancialGoalsManager.Core -> Microsoft.EntityFrameworkCore.InMemory (>= 9.0.0) \r\n FinancialGoalsManager.Api -> Microsoft.EntityFrameworkCore.InMemory (>= 8.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
       "message": "Aviso como Erro: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore.InMemory de 9.0.0 para 8.0.10. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n FinancialGoalsManager.Api -> FinancialGoalsManager.Infrastructure -> Microsoft.EntityFrameworkCore.InMemory (>= 9.0.0) \r\n FinancialGoalsManager.Api -> Microsoft.EntityFrameworkCore.InMemory (>= 8.0.10)",
       "libraryId": "Microsoft.EntityFrameworkCore.InMemory",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Aviso como Erro: Downgrade de pacote detectado: Microsoft.EntityFrameworkCore de 9.0.0 para 8.0.10. Referencie o pacote diretamente do projeto para selecionar uma versão diferente. \r\n FinancialGoalsManager.Api -> FinancialGoalsManager.Core -> Microsoft.EntityFrameworkCore.SqlServer 9.0.0 -> Microsoft.EntityFrameworkCore.Relational 9.0.0 -> Microsoft.EntityFrameworkCore (>= 9.0.0) \r\n FinancialGoalsManager.Api -> Microsoft.EntityFrameworkCore (>= 8.0.10)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
       "targetGraphs": [
         "net8.0"
       ]

@@ -5,9 +5,9 @@ namespace FinancialGoalsManager.Repositories
 {
     public class FinancialObjectiveRepository : IRepository<FinancialObjective>
     {
-        private readonly FinancialGoalsDbContext _context;
+        private readonly FinancialDbContext _context;
 
-        public FinancialObjectiveRepository(FinancialGoalsDbContext context)
+        public FinancialObjectiveRepository(FinancialDbContext context)
         {
             _context = context;
         }

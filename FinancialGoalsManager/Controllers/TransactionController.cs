@@ -19,6 +19,8 @@ namespace FinancialGoalsManager.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllTransactions()
         {
+            // Chamar o serviço para pegar todas as transações
+
 
             return Ok();
         }
