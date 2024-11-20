@@ -5,7 +5,7 @@ namespace FinancialGoalsManager.Entities
 {
     public class Transaction : BaseEntity
     {
-        public Transaction()
+        public Transaction() : base() 
         {
             DataCriaçao = DateTime.Now;
             Tipo = TransactionType.Deposito;

@@ -5,7 +5,7 @@ namespace FinancialGoalsManager.Entities
 {
     public class FinancialObjective : BaseEntity
     {
-        public FinancialObjective()
+        public FinancialObjective() : base()
         {
             Transacoes = new List<Transaction>();
             DataCriacao = DateTime.Now;
@@ -19,9 +19,9 @@ namespace FinancialGoalsManager.Entities
 
         public int Id { get; set; }
 
-        [Required(ErrorMessage= "O título é obrigatório.")]
+        [Required(ErrorMessage = "O título é obrigatório.")]
         [StringLength(100, ErrorMessage = "O título não pode ter mais de 100 caracteres.")]
-        public string Titulo { get; set; }
+        public string Titulo { get; set; } = null!;
 
         [Range(0, double.MaxValue, ErrorMessage = "A quantidade alvo deve ser positiva.")]
         public decimal QuantidadeAlvo { get; set; }
