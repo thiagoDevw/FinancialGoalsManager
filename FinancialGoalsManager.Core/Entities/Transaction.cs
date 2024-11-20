@@ -5,6 +5,12 @@ namespace FinancialGoalsManager.Entities
 {
     public class Transaction : BaseEntity
     {
+        public Transaction()
+        {
+            DataCriaçao = DateTime.Now;
+            Tipo = TransactionType.Deposito;
+        }
+
         public int Id { get; set; }
 
         [Range(0.01, double.MaxValue, ErrorMessage= "A quantidade deve ser um valor positivo.")]
