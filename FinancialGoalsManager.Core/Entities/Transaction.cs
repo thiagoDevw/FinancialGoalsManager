@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FinancialGoalsManager.Core.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace FinancialGoalsManager.Entities
 {
-    public class Transaction
+    public class Transaction : BaseEntity
     {
         public int Id { get; set; }
 

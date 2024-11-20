@@ -1,9 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FinancialGoalsManager.Core.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace FinancialGoalsManager.Entities
 {
-    public class FinancialObjective
+    public class FinancialObjective : BaseEntity
     {
+        public FinancialObjective()
+        {
+            Transacoes = new List<Transaction>();
+            DataCriacao = DateTime.Now;
+            Status = ObjectiveStatus.EmProgresso; // Valor padrão inicial
+        }
+
         public FinancialObjective(ICollection<Transaction> transacoes)
         {
             Transacoes = transacoes ?? new List<Transaction>();
