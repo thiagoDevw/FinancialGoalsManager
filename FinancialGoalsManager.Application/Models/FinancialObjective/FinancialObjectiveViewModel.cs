@@ -1,4 +1,6 @@
-﻿namespace FinancialGoalsManager.Application.Models.FinancialObjective
+﻿
+
+namespace FinancialGoalsManager.Application.Models.FinancialObjective
 {
     public class FinancialObjectiveViewModel
     {
@@ -13,7 +15,7 @@
         public string Titulo { get; set; }
         public decimal ValorTotal { get; set; }
 
-        public static FinancialObjectiveViewModel FromEntity(FinancialObjectiveViewModel entity)
+        public static FinancialObjectiveViewModel FromEntity(FinancialGoalsManager.Entities.FinancialObjective entity)
             => new FinancialObjectiveViewModel(entity.Id, entity.Titulo, entity.ValorTotal);
     }
 }
