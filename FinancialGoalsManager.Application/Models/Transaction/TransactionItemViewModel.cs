@@ -19,7 +19,6 @@ namespace FinancialGoalsManager.Application.Models.Transaction
         public DateTime DataTransacao { get; set; }
         public DateTime DataCriacao { get; set; }
 
-        public static TransactionViewModel FromEntity(FinancialGoalsManager.Entities.Transaction entity)
-            => new TransactionViewModel(entity.Id, entity.Quantidade, entity.Tipo, entity.DataTransacao, entity.DataCriaçao);
+        
     }
 }
