@@ -15,7 +15,8 @@ namespace FinancialGoalsManager.Application.Models.Transaction
         public decimal Quantidade { get; set; }
         public TransactionType Tipo { get; set; }
 
-
+        public static TransactionViewModel FromEntity(FinancialGoalsManager.Entities.Transaction entity) 
+            => new TransactionViewModel(entity.Id, entity.Quantidade, entity.Tipo);
 
     }
 }
